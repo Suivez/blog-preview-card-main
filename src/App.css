@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: auto;
+  width: 376px;
   height: auto;
   padding: 20px;
   background-color: var(--white);
@@ -53,4 +53,20 @@ body {
   width: fit-content;
   font-weight: 800;
   border-radius: 4px;
+}
+
+p {
+  color: var(--black);
+}
+
+p:nth-of-type(1) {
+  font-size: 0.87rem;
+}
+
+p:nth-of-type(2) {
+  color: var(--grey);
+}
+
+h2 {
+  font-weight: 800;
 }
