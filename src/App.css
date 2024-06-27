@@ -70,3 +70,17 @@ p:nth-of-type(2) {
 h2 {
   font-weight: 800;
 }
+
+.author-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-top: 23px;
+}
+
+.author-box img {
+  width: 30px;
+  margin-right: 13px;
+}
