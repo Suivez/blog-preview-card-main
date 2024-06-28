@@ -84,3 +84,18 @@ h2 {
   width: 30px;
   margin-right: 13px;
 }
+
+.card-content a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.card-content a:hover {
+  color: var(--yellow);
+  transition: ease-in 0.1s;
+}
+
+.card-main:has(.card-content a:hover) {
+  box-shadow: 16px 16px 0px 0px var(--black);
+  transition: ease-in 0.1s;
+}
