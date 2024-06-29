@@ -37,6 +37,7 @@ body {
   border: 1px solid var(--black);
   border-radius: 16px;
   box-shadow: 8px 8px 0px 0px var(--black);
+  transition: 0.3s;
 }
 
 .card-image img{
@@ -97,5 +98,15 @@ h2 {
 
 .card-main:has(.card-content a:hover) {
   box-shadow: 16px 16px 0px 0px var(--black);
-  transition: ease-in 0.1s;
+  transition: ease 0.1s;
+}
+
+@media (max-width: 400px) {
+  .card-main {
+    width: 356px;
+  }
+
+  .card-image img{
+    width: 316px;
+  }
 }
